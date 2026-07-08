@@ -72,7 +72,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" dir="ltr" className="dark">
+    <html lang="en" dir="ltr" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${playfair.variable} font-sans antialiased`}
       >
